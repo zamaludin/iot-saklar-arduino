@@ -3,10 +3,10 @@
 #include <Servo.h>
 
 
-#define FIREBASE_HOST "newagent-19c5a.firebaseio.com" //Do not include https:// in FIREBASE_HOST
-#define FIREBASE_AUTH "QegVLrJWl6kNi4hyCQd0T2gcujq28F0KjB2ENlkJ"
-#define WIFI_SSID "Quroza"
-#define WIFI_PASSWORD "kayabersyukur"
+#define FIREBASE_HOST "YOUR_FIREBASE_HOST" //Do not include https:// in FIREBASE_HOST
+#define FIREBASE_AUTH "YOUR_FIREBASE_AUTH"
+#define WIFI_SSID "YOUR_WIFI_NAME"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 
 Servo myservo;  // create servo object to control a servo
 int pos = 0;
